@@ -7,9 +7,9 @@ import static org.junit.Assert.assertTrue;
  */
 public class HelloWorldTest {
 
-    @org.junit.Test
-    public void testGetVersion() throws Exception {
-        HelloWorld main = new HelloWorld();
-        assertTrue(main.getVersion() >= 1.7);
-    }
+  @org.junit.Test
+  public void testGetVersion() throws Exception {
+    HelloWorld main = new HelloWorld();
+    assertTrue(main.getVersion() >= 1.7);
+  }
 }
